@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12-DOM </title>
+</head>
+<body>
+
+   
+
+    <!-- **************** DOM - Document Object Model ***************
+    
+    ==> ye jo pura 'html' hai na usko hm browser k terms m 'DOM' bolte hai ...
+    ==> <title>, <img>, <h1> all tags ko hm 'DOM Elements' bolte h ...
+    ==> JS se hm inn elements ko create, delete, update and isk upr hm interactivity add on kr skte h ...
+
+    # alert('Hey There I am an Alert !!!');     ===== window.alert("Hey There I am an Alert !!!");
+    # console.log("Piyush")                     ===== window.console.log("Piyusn");
+        ye jo kuch bhi hota hai wo 'window' pe hota hai
+        to  -- 'window.alert' -- likho, nhi likha to bhi chalega
+        js kud se window lga dega alert ke samne ...
+
+    # document
+        iss me apna hi pura code hota hai ...
+        document.title = "ABCD"
+        window.document.title = "ABCD"
+        wo title change kr dega ...
+    -->
+
+    <h3>DOM</h3>
+
+    <script>
+        window.alert('Hey There I am an Alert !!!');
+        const value = prompt("Whats your name?","Piyush");
+        console.log(value);
+
+        document.title = "12-DOM";
+
+        console.log(document.body);
+        document.write('This is Hacked');   // this will print line at the end of HTML page ...
+
+        let name = prompt("whats your name : ");
+        document.write("Hello "+name);
+
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
